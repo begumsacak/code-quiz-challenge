@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <title>Code Quiz Challenge</title>
+    <!--Link to Bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Bootstrap File -->
+    <!-- Bootstrap Link-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <!-- Links to Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <!-- My CSS File-->
     <link rel="stylesheet" href="code-quiz.css">
+    <!--Links to jQuery library - I linked min.js specifically since the code will load faster-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!--Link to my Javascript file-->
     <script src="script.js"></script>
-
-
 </head>
-
 <body>
-
-    <button type="button" class="btn btn-light">View Highscores</button>
+    <!--Users high scores can be accessed from here - still not complete in Javascript-->
+    <a href="#View Highscores" id="high-scores">View Highscores</a>
+    <!--Users scores can be accessed from here - still not complete in Javascript-->
     <div id="score">
-
+        <p>Score:0</p>
     </div>
     <div class="main-div col-md-12 container-fluid">
         <h1 class="heading">Code Quizzing Challenge</h1>
@@ -29,13 +29,11 @@
         <p>Keep in mind that incorrect answers will penalize your scoretime by ten seconds.</p>
         <button type="button" class="btn btn-start">Start Quiz</button>
     </div>
-
-    <div class="question-1 col-md-6 container-fluid">
-    
+    <div class="question-set col-md-6 container-fluid">
+    <!--The questions created with jQuery will go here-->
         <div class="question heading"></div>
-
+    <!--The answer options (buttons) will show up here-->
         <div class="button"></div>
-        
     </div>
 </body>
 </html>

@@ -1,25 +1,25 @@
+/*The landing page div*/
 .main-div {
     display: block;
     text-align: center;
     margin-top: 50px;
 }
-
-.score {
-    float: right;
-    margin-right: 0; 
-    margin-left: 90px;
-}
-#heading {
+/*Heading style is used for questions*/
+.heading {
     font-weight: bold;
     font-family: 'Lato', sans-serif;
 }
-.p {
-    margin-top: 20px;
-    font-family: 'Lato', sans-serif;
-    font-size: 16px;
+#high-scores {
+    color:#4e2a84;
+    margin-inline-start: 10px;
+}
+#score {
+    float: right;
+    margin-inline-end: 10px;
 }
 
-.answer {
+/*Styles answer buttons*/
+.answer-button {
     display: block;
     color: #fff;
     background-color:#4e2a84;
@@ -29,38 +29,35 @@
     margin-bottom: 20px;
     text-align: center;
 }
-.answer:hover {
+/*Styles answer button hover states*/
+.answer-button:hover {
     color: #fff;
     background-color: #b6acd1;
     border-color: #b6acd1;
     font-family: 'Lato', sans-serif;
 }
+/*Styles the start button*/
 .btn-start {
     color: #fff;
     background-color:#4e2a84;
     border-color: #4e2a84;
     font-family: 'Lato', sans-serif;
 }
+/*Styles start button hover states*/
 .btn-start:hover {
     color: #fff;
     background-color: #b6acd1;
     border-color: #b6acd1;
     font-family: 'Lato', sans-serif;
 }
-.btn-light {
-    color: #4e2a84;
-    background-color: #fff;
-    border-color: #fff;
-    font-family: 'Lato', sans-serif;
-}
-.btn-light:hover {
-    color: #4e2a84;
-    background-color: #fff;
-    border-color: #fff;
-    font-family: 'Lato', sans-serif;
-}
-.question-1 {
+/*Styles the question-set div*/
+.question-set {
     display: block;
     text-align: center;
     margin-top: 50px;
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) {
+    .answer-button {
+        align-self: center;
+     }
 }
