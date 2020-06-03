@@ -63,6 +63,6 @@
              //function renderResults () {
              //  $(".final-scores").show();
              //  $(".final-scores").html("<h1>" + "All done!" + "</h1>")
-             }
+             //}
 
         });
