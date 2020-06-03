@@ -8,6 +8,7 @@
 .heading {
     font-weight: bold;
     font-family: 'Lato', sans-serif;
+    font: size 14;
 }
 #high-scores {
     color:#4e2a84;

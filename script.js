@@ -31,15 +31,18 @@
             //Here is where the function is defined. 
                 function renderQuestion () {
                     // By using jQuery, I am creating an HTML element (h1) and adding content to h1. Basically, question list will start to appear on the screen at the index (starting from idx=0) for each question. 
+                    $(".button").empty()
+
                     $(".question").html("<h1>" + questionList[idx].question + "</h1>")
                     for (i=0; i<questionList[idx].answers.length; i++) {
-                        $(".button").append("<button class='answer-button btn btn-primary'>" + questionList[idx].answers[i] + "</button>") 
+                        $(".button").append("<button class='answer-button btn btn-primary'>" + questionList[idx].answers[i] + "</button>")
                     }
+
                 } 
 
                    $(".button").on ("click", ".answer-button", function(){
-                       idx++
-                       renderQuestion() 
+                       idx++ 
+                       renderQuestion()  
     
              });
 
