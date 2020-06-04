@@ -8,8 +8,7 @@ In this project, I created a simple code quiz using HTML, CSS, Javascript and JQ
 
 The users will see the start screen (information on how the quiz works), and when they click on Start, they should be able to see each question. When they click on any button, the other questions are rendered one by one. 
 
-
-Format: ![First-prompt-users-decide-password-length](https://drive.google.com/file/d/1EeJER4RmcQ35WbP2BZVYyP7d_ffhRs-U/view?usp=sharing)
+<img width="400" alt="first-prompt-for-users-determining-password-length" src="https://user-images.githubusercontent.com/63175082/83811786-15ccf600-a680-11ea-96ae-1c1e3dd4bb30.png">
 
 ### Cloning the CSS/HTML files from Repository
 
