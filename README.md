@@ -8,6 +8,8 @@ In this project, I created a simple code quiz using HTML, CSS, Javascript and JQ
 
 The users will see the start screen (information on how the quiz works), and when they click on Start, they should be able to see each question. When they click on any button, the other questions are rendered one by one. 
 
+
+
 ### Cloning the CSS/HTML files from Repository
 
 * Please go to https://github.com/begumsacak/code-quiz-challenge to download the raw code files from the Github repository. 
